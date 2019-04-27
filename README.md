@@ -1,4 +1,5 @@
-# vuex
+# VuexImpl
+Vuex的基本用法
 
 ## Project setup
 ```
