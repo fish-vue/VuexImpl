@@ -3,12 +3,12 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-import moduleA from './store/moduleA'
+import todoList from './store/todoList'
 
 export default new Vuex.Store({
   // 状态模块化
   modules: {
-    a: moduleA
+    todoList: todoList
   },
   state: {
     message: 'this is a message from vuex state'
@@ -27,8 +27,8 @@ export default new Vuex.Store({
   },
   mutations: {
     // 第一个参数固定是state
-    addMessage(state, payload){
-      state.message += payload
+    changeMessage(state, payload){
+      state.message = payload
     }
   },
 

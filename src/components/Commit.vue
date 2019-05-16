@@ -17,7 +17,7 @@ export default {
   methods: {
     // 组件通过调用commit方法触发store的mutations函数
     commit(){
-      this.$store.commit('addMessage', this.payload)
+      this.$store.commit('changeMessage', this.payload)
     }
   }
 }

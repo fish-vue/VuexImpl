@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/State.vue'
 import MapStateVue from './components/MapState.vue'
 import Commit from './components/Commit.vue'
 import Actions from './components/Actions.vue'
-import ModuleA from './components/ModuleA.vue'
+import ModuleA from './components/TodoList.vue'
 
 export default {
   name: 'app',
